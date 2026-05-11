@@ -105,7 +105,8 @@ on the children, the rest are properties you have used in past challenges
   width: 100vw;
   height: 320px;
   display: flex;
-  flex:1
+  flex-direction: column;
+  justify-content: space-around;
 
 }
 
@@ -113,6 +114,10 @@ on the children, the rest are properties you have used in past challenges
   background-color: lightgrey;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+  
 
 
 }
@@ -121,7 +126,9 @@ on the children, the rest are properties you have used in past challenges
   background-color: darkgrey;
 display: flex;
 flex-direction: row;
-  /* add code below */
+flex: 1;
+align-items: center;
+justify-content: space-around;
 }
 
 
