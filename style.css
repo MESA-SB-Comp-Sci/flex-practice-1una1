@@ -106,16 +106,13 @@ on the children, the rest are properties you have used in past challenges
   height: 320px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-
 }
 
 .c-6-child-1 {
   background-color: lightgrey;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  flex: 1;
+  align-items: start;
   justify-content: space-around;
   
 
@@ -126,8 +123,7 @@ on the children, the rest are properties you have used in past challenges
   background-color: darkgrey;
 display: flex;
 flex-direction: row;
-flex: 1;
-align-items: center;
+align-items: start;
 justify-content: space-around;
 }
 
